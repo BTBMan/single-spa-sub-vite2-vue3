@@ -1,0 +1,23 @@
+{
+  "name": "@micro-test/micro-sub-vite2-vue3",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "npm run dev",
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "ant-design-vue": "^2.2.8",
+    "single-spa-vue": "^2.5.1",
+    "vue": "^3.2.25",
+    "vue-easy-lightbox": "^1.2.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.0.0",
+    "@vitejs/plugin-vue-jsx": "^1.3.3",
+    "typescript": "^4.4.4",
+    "vite": "^2.7.2",
+    "vue-tsc": "^0.29.8"
+  }
+}
